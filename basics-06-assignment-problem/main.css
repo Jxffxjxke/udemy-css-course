@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: bisque;
+  font-family: sans-serif;
+}
+
+ol {
+  font-family: monospace;
+}
+
+ol li {
+  background-color: black;
+  color: white;
+}
+
+ol > li:not(:first-child) {
+  background-color: black;
+  color: white;
+}
+
+.second-li-code {
+  color: green;
+}
+
+code {
+  color: red;
+  font-family: monospace;
+}
